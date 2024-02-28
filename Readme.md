@@ -1,5 +1,7 @@
 # CODEFORCES DARK THEME
 
+<img width="1440" alt="Screenshot 2024-02-29 at 1 38 21 AM" src="https://github.com/Prashant0664/Codeforces-Dark-Theme-Extension/assets/98750053/b2df5fb1-3871-411f-92db-f3fafdbee6bb">
+
 #### SPOILER: User controllable theme colors coming soon
 
 ## To use this extension:
