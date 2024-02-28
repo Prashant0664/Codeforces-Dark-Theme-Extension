@@ -1,0 +1,43 @@
+nobr{
+    color:white
+}
+.sample-test > div > pre > div{
+    background-color: rgb(38,38,38);
+}
+.input > pre {
+    border:none;
+    border:solid -8px black;
+    color:rgb(192, 191, 191);
+}
+.problem-statement .sample-tests pre{
+    background-color: rgb(43, 45, 52) !important;
+    color:rgb(215, 214, 214) !important;
+}
+
+.problem-statement .test-example-line-even{
+    background-color: rgb(34, 34, 34) !important;
+}
+.problem-statement .test-example-line-odd{
+    background-color: rgb(63, 63, 63) !important;
+}
+.problem-statement .test-example-line-odd:hover{
+    background-color: rgb(93, 89, 89) !important;
+}
+.problem-statement .test-example-line-even:hover{
+    background-color: rgb(93, 89, 89) !important;
+}
+._EduCoursesViewPage_name{
+    color:white !important;
+}
+.format-humantime{
+    color:white !important;
+}
+._EduCoursesViewPage_courses > thead > tr > th {
+    color:white !important;
+}
+.legendary-user-first-letter{
+    color:white !important;
+}
+.user-legendary > span{
+    color:white !important;
+}

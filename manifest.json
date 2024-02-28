@@ -1,0 +1,42 @@
+{
+    "name": "CF-Dark Theme",
+    "version": "0.1.0",
+    "author": "Prashant (Prashant0664 on github)",
+    "description": "Change Codeforces Theme",
+    "permissions": ["tabs"],
+    "host_permissions": ["https://codeforces.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://codeforces.com/*"],
+        "js": ["contentScript.js"],
+        "css": ["popup.css"]
+      }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+            "icons/bookmark.png",
+            "icons/play.png",
+            "icons/delete.png",
+            "icons/save.png"
+          ],
+        "matches": ["https://codeforces.com/*"]
+      }
+    ],
+    "action": {
+      "default_icon": {
+        "16": "icons/apple-touch-icon.png",
+        "24": "icons/apple-touch-icon.png",
+        "32": "icons/apple-touch-icon.png"
+      },
+      "default_title": "CF_Dark Theme",
+      "default_popup": "popup.html"
+    },
+    "externally_connectable": {
+      "matches": ["https://codeforces.com/*"]
+    },
+    "manifest_version": 3
+  }
