@@ -13,5 +13,7 @@
 6. Click on Load Unpackd
 7. Upload downloaded folder
 8. Refresh the codeforces page!
-
+   
 _Note: Upload the root folder i.e. Codeforces-Dark-Theme-Extension_
+
+### Feel free to give feedback or raise any query in issues
