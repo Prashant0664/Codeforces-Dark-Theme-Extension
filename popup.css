@@ -62,3 +62,7 @@ nobr{
 .problems > tbody > tr > td > div > div > a{
     color:rgb(159, 203, 253) !important;
 }
+.ttypography > .problem-statement > div > ul > li{
+    color:white !important;
+    /* display:none; */
+}
